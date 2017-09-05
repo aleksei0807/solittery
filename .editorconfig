@@ -1,10 +1,10 @@
 root = true
 
-[{src,contracts}*]
+[*]
 end_of_line = lf
 insert_final_newline = true
 
-[{{src,contracts}*.{sol,js}]
+[*.{sol,js}]
 indent_style = space
 indent_size = 2
 
