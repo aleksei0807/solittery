@@ -20,7 +20,7 @@ const getWeb3 = new Promise(resolve => {
       resolve(results)
     } else {
       // Fallback to localhost if no web3 injection.
-      const provider = new Web3.providers.HttpProvider('http://ams-1.ce.danshin.pro:1337')
+      const provider = new Web3.providers.HttpProvider('https://ams-1.ce.danshin.pro')
 
       web3 = new Web3(provider)
 
