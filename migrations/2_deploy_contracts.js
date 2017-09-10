@@ -1,5 +1,5 @@
-var Solittery = artifacts.require("./Solittery.sol");
+const Solittery = artifacts.require('./Solittery.sol')
 
-module.exports = function(deployer) {
-  deployer.deploy(Solittery);
-};
+module.exports = deployer => {
+  deployer.deploy(Solittery)
+}
